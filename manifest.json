@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "PhishLens",
+  "version": "1.0",
+  "description": "AI-powered phishing detection with Llama 3.2 natural language explanations. Protects users from phishing attacks with transparent, human-readable reasoning for every flagged URL.",
+  "permissions": ["tabs", "activeTab", "storage","webNavigation", "notifications", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png",
+    "default_title": "PhishLens"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
