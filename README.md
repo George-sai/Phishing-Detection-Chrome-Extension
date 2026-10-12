@@ -56,7 +56,7 @@ ollama list
 
 ```bash
 # Clone or download the project
-cd phishlens-api
+cd phishLen
 
 # Create virtual environment
 python -m venv venv
